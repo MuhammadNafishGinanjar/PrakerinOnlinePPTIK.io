@@ -1,0 +1,232 @@
+/*Navbar*/
+.navbar {
+  background-color: #404eed !important;
+}
+
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  color: #fff !important;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.863) !important;
+}
+
+.button-1 {
+  color: black;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  border-radius: 100px;
+  background-color: #fff;
+}
+
+.button-1:hover {
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.button-2 {
+  color: black;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  border-radius: 100px;
+  background-color: #fee75c;
+}
+
+.button-2:hover {
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+/*Akhir Navbar*/
+
+/*Jumbotron Bagian Home*/
+.jmbtrn-1 {
+  background-color: #404eed;
+}
+
+.text-jmbtrn {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.text-jmbtrn h1 {
+  font-weight: 800;
+}
+
+.text-jmbtrn p {
+  font-size: 15px;
+}
+/*Jumbotron Bagian Home*/
+
+/*Jumbotron Bagian Group*/
+.jmbtrn-2 {
+  background-color: #404eed;
+}
+
+.text-jmbtrn2 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.text-jmbtrn2 h1 {
+  font-weight: 800;
+}
+
+.text-jmbtrn2 p {
+  font-size: 15px;
+}
+
+.buttonpage-2 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #404eed;
+}
+
+.buttonpage-2:hover {
+  color: rgba(255, 255, 255, 0.863);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.judul-card {
+  color: #404eed;
+}
+/*Jumbotron Bagian Group*/
+
+/*Login Form*/
+.login-page {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid #404eed;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.isi-loginpage {
+  margin-top: 50px;
+}
+
+.button-form {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #404eed;
+}
+
+.button-form:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.warna-a-Login {
+  color: #404eed;
+}
+
+.login-form {
+  margin-bottom: 50px;
+}
+/*Login Form*/
+
+/*Register Form*/
+.Registerpage {
+  border: 2px solid #404eed;
+  border-radius: 5px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.isi-registerpage {
+  margin-bottom: 30px;
+}
+
+.isi-registerpage h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/*Akhir Register Form*/
+
+/*Verify page*/
+.Verify-page {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid #404eed;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.isi-Verifypage {
+  margin-top: 50px;
+}
+
+.Verify-form {
+  margin-bottom: 50px;
+}
+/*Verify page*/
+
+/*Table*/
+.custom-margin {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.tabel-lihat1 {
+  border: 2px solid #404eed;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.table {
+  margin-top: 30px;
+}
+
+.judul-tabel {
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.button-tabel {
+  color: white;
+  background-color: #404eed;
+  font-family: "Poppins", sans-serif;
+}
+
+.button-tabel:hover {
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+/*Akhir Table*/
+
+/*gambar silang*/
+.gambar-silang {
+  width: 50%;
+}
+
+/*Footer*/
+code {
+  color: #404eed;
+}
+
+@media (max-width: 989px) {
+  /*Button Navbar*/
+  .button-1 {
+    margin-bottom: 3px;
+  }
+}

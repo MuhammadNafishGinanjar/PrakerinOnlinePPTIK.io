@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+    <!--My CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet" />
+    <title>Prakerin Online PPTIK</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Prakerin Online </a>
+        <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="Group.html">Group Prakerin</a>
+            <a class="nav-item nav-link" href="https://play.google.com/store/apps/details?id=id.pptik.prakerin_online">Download Aplikasi</a>
+            <a href="Login.html" class="btn button-1" role="button" aria-pressed="true">Login</a>
+            <a href="Register.html" class="btn button-2" role="button" aria-pressed="true">Register</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Akhir Navbar-->
+
+    <!--Lihat-->
+    <div class="custom-margin">
+    <div class="container tabel-lihat1">     
+        <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <h1 class="judul-tabel">Daftar Batch</h1>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nama Group</th>
+            <th scope="col">Kuota Group</th>
+            <th scope="col">Jurusan</th>
+            <th scope="col">Total Daftar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Smart System Web</td>
+            <td>800</td>
+            <td>Rekayasa Perangkat Lunak-RPL</td>
+            <td>157</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+    </div>
+
+    <div class="container">
+      <form class="form-row">
+        <div class="mt-4 mx-sm-1 mb-2 col-lg-4">
+          <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+            <option selected>Pilih Tahun</option>
+            <option value="1">2020</option>
+            <option value="2">2021</option>
+            <option value="3">2022</option>
+            <option value="4">2023</option>
+            <option value="5">2024</option>
+            <option value="6">2025</option>
+          </select>
+        </div>
+        <div class="mt-4 mx-sm-1 mb-2 col-lg-4">
+          <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+            <option selected>Pilih Bulan</option>
+            <option value="1">Januari</option>
+            <option value="2">Februari</option>
+            <option value="3">Maret</option>
+            <option value="3">April</option>
+            <option value="3">Mei</option>
+            <option value="3">Juni</option>
+            <option value="3">Juli</option>
+            <option value="3">Agustus</option>
+            <option value="3">September</option>
+            <option value="3">Oktober</option>
+            <option value="3">November</option>
+            <option value="3">Desember</option>
+          </select>
+        </div>
+          <a href=" " type="submit" class="btn button-tabel ml-1 mb-2 mt-4">Cari Kelas</a>
+        </div>
+      </form>
+    </div>
+
+    <div class="container"> 
+        <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nama</th>
+            <th scope="col">Tema</th>
+            <th scope="col">Tanggal Mulai</th>
+            <th scope="col">Tanggal Selesai</th>
+            <th scope="col">Kuota</th>
+            <th scope="col">Jumlah Daftar</th>
+            <th scope="col">Sisa Kuota</th>
+            <th scope="col">Instansi</th>
+            <th scope="col">Status</th>
+            <th scope="col">Daftar</th>
+            <th scope="col">Detail</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Batch 1</td>
+            <td>HTML, CSS, FLEXBOX</td>
+            <td>2022-03-01</td>
+            <td>2022-03-31	</td>
+            <td>200</td>
+            <td>79</td>
+            <td>121</td>
+            <td>PPTIK ITB</td>
+            <td>Tutup</td>
+            <td><a href=" " type="submit" class="btn button-tabel" data-toggle="modal" data-target="#Modalbatch-daftar">Daftar</a></td>
+            <td><a href=" " type="submit" class="btn button-tabel" data-toggle="modal" data-target="#Modalbatch-10">Detail</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Batch 1</td>
+            <td>Pengantar Smart System	</td>
+            <td>2022-04-01</td>
+            <td>2022-04-30	</td>
+            <td>150</td>
+            <td>0</td>
+            <td>150</td>
+            <td>PPTIK ITB</td>
+            <td>Buka</td>
+            <td><a href=" " type="submit" class="btn button-tabel" data-toggle="modal" data-target="#Modalbatch-daftar">Daftar</a></td>
+            <td><a href=" " type="submit" class="btn button-tabel" data-toggle="modal" data-target="#Modalbatch-10.1">Detail</a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Batch 2</td>
+            <td>JavaScript	</td>
+            <td>2022-04-01</td>
+            <td>2022-04-30	</td>
+            <td>150</td>
+            <td>78</td>
+            <td>72</td>
+            <td>PPTIK ITB</td>
+            <td>Buka</td>
+            <td><a href=" " type="submit" class="btn button-tabel" data-toggle="modal" data-target="#Modalbatch-daftar">Daftar</a></td>
+            <td><a href=" " type="submit" class="btn button-tabel" data-toggle="modal" data-target="#Modalbatch-10.2">Detail</a></td>
+          </tr>
+        </tbody>
+      </table>
+      </div>    
+    </div>
+    <!--Akhir Lihat-->
+
+     <!--Modal-->
+     <div class="modal fade" id="Modalbatch-daftar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <img src="img/close-icon.jpg" class="gambar-silang mx-auto d-block" alt="">
+       <h5 class="text-center">Mohon Maaf</h5>
+       <p class="text-center">Anda harus Login, untuk mendaftar kelas ini</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn buttonpage-2" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal fade" id="Modalbatch-10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">Batch 1</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <h5>HTML, CSS, FLEXBOX</h5>
+        <hr>
+        Waktu Kelas : 2022-03-01-2022-03-31
+        <hr>
+        Program Studi : Rekayasa Perangkat Lunak-RPL
+        <hr>
+        Kuota : 200
+        <hr>
+        Jumlah Pendaftar : 79
+        <hr>
+        Sisa kuota : 121
+        <hr>
+        Status : Kuota Tersedia
+        <hr>
+        <h5>Silabus :</h5>
+        <p>HTML, CSS, FLEXBOX</p>
+        <h5>Minimal Requirement dan Ketentuan Kelas</h5>
+        -
+        <br>
+        -
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn buttonpage-2" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="modal fade" id="Modalbatch-10.1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">Batch 1</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <h5>Pengantar Smart System</h5>
+        <hr>
+        Waktu Kelas : 2022-04-01-2022-04-30
+        <hr>
+        Program Studi : Rekayasa Perangkat Lunak-RPL
+        <hr>
+        Kuota : 150
+        <hr>
+        Jumlah Pendaftar : 0
+        <hr>
+        Sisa kuota : 150
+        <hr>
+        Status : Kuota Tersedia
+        <hr>
+        <h5>Silabus :</h5>
+        <p>Dasar - dasar HTML, Pengenalan CSS, Pengenalan Responsif Web</p>
+        <h5>Minimal Requirement dan Ketentuan Kelas</h5>
+        -
+        <br>
+        -
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn buttonpage-2" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="modal fade" id="Modalbatch-10.2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">Batch 2</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <h5>JavaScript</h5>
+        <hr>
+        Waktu Kelas : 2022-04-01-2022-04-30
+        <hr>
+        Program Studi : Rekayasa Perangkat Lunak-RPL
+        <hr>
+        Kuota : 150
+        <hr>
+        Jumlah Pendaftar : 78
+        <hr>
+        Sisa kuota : 72
+        <hr>
+        Status : Kuota Tersedia
+        <hr>
+        <h5>Silabus :</h5>
+        <p>Pengenalan JavaScript, Dasar - dasar Javascript</p>
+        <h5>Minimal Requirement dan Ketentuan Kelas</h5>
+        -
+        <br>
+        -
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn buttonpage-2" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Akhir Modal-->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
